@@ -77,106 +77,111 @@ EBS and broader EWAR implementation should be approached **stepwise**, not all a
 This layout mirrors the modular design of the EBS Toolkit materials. Folder links point to the corresponding directory in the [GitHub repository](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit).
 
 ```
-/01-ewar-background/
-    1.1-overview-of-disease-surveillance.pptx
+Module 1 - EWAR
+    1.1-IHR-and-EWAR.pptx
     1.2-surveillance-frameworks.pptx
 
-/02-steps-and-process/
+Module 2 - EBS Overview
     2.1-importance-of-ebs.pptx
     2.2-ebs-concepts-and-methods.pptx
-    2.3-ebs-risk-assessment.pptx
+    2.3-risk-assessment.pptx
     2.3.1-risk-assessment-case-study.pptx
-    ebs-sop-template.docx
-    risk-assessment-guidance.docx
-    ebs-signal-abstraction-form.docx
-    cebs-febs-signal-register.xlsx
-    cebs-febs-signal-register-key.docx
-    intermediate-level-ebs-event-log.xlsx
-    intermediate-level-ebs-event-log-key.docx
+    M2-cebs-signal-notebook.docx
+    M2-cebs-febs-signal-register-key.docx
+    M2-cebs-febs-signal-register.xlsx
+    M2-ebs-sop-template.docx
+    M2-ebs-signal-abstraction-form.docx
+    M2-intermediate-level-ebs-event-log.xlsx
+    M2-intermediate-level-ebs-event-log-key.docx
+    M2-risk-assessment-guidance.docx
 
-/03-implementation-considerations/
-    3.1-placement-coordination-resources.pptx
-    3.2-one-health-and-cross-border.pptx
-    3.2.1-case-scenario-one-health.pptx
-    3.2.2-case-scenario-cross-border.pptx
+Module 3 - Considerations
+    3.1-implementation-consideration.pptx
+    3.2-one-health-and-cross-border-ebs.pptx
+    3.2.1-one-health-case-study.pptx
+    3.2.2-cross-border-case-study.pptx
     3.3-signal-development.pptx
     3.4-epidemics-and-pandemics.pptx
-    signal-development-guidance.docx
+    M3-signal-development-guidance.docx
 
-/04-hotlines/
-    4.1-hotlines.pptx
+Module 4 - Hotlines
+    4.1-hotline-ebs.pptx
     4.1.1-hotline-case-study.pptx
     4.1.2-hotline-case-study-handout.docx
 
-/05-media-scanning/
+Module 5 - Media Scanning
     5.1-media-scanning.pptx
-    5.1.1-case-scenario-media-scanning.pptx
+    5.1.1-media-scanning-case-study.pptx
     5.1.2-eios-demo.pptx
 
-/06-facility-ebs/
+Module 6 - Facility EBS
     6.1-facility-ebs.pptx
-    6.1.1-case-scenario-health-facility.pptx
-    6.1.2-case-scenario-wastewater-facility.pptx
+    6.1.1-healthcare-facility-case-study.pptx
+    6.1.2-wastewater-facility-case-study.pptx
 
-/07-community-ebs/
+Module 7 - Community EBS
     7.1-community-ebs.pptx
-    7.1.1-case-scenario-cebs.pptx
+    7.1.1-cebs-case-study.pptx
 
-/08-data-management-and-ems/
+Module 8 - Data Management
     8.1-ebs-data-management.pptx
-    8.1.1-case-scenario-data-management.pptx
-    8.1.2-case-scenario-data-for-analysis.xlsx
+    8.1.1-case-study.pptx
+    8.1.2-case-study-data.xlsx
     8.2-event-management-systems.pptx
-    8.2.1-ephem-ems-demo.pptx
-    ephem-general-overview.pptx
-    8.3-spotrep-sitrep-preparation.pptx
-    situation-report-template.docx
-    spot-report-template.docx
+    8.2.1-ephem-demo.pptx
+    8.3-sit_spot-reports.pptx
+    M8-situation-report-template.docx
+    M8-spot-report-template.docx
+    M8-ephem-general-overview.pptx
 
-/09-monitoring-and-evaluation/
+Module 9 - Monitoring and Evaluation
+    M9-evaluation-materials
+        M9-bottleneck-enabler-focus-group-calculator.xlsx
+        M9-bottleneck-enabler-focus-group.docx
+        M9-data-export-template.xlsx
+        M9-ebs-evaluation-literature-review.xlsx
+        M9-evaluation-guidance.docx
+        M9-evaluation-guidance.pdf
+        M9-evaluation-protocol-template.docx
+        M9-initial-evaluation-checklist.docx
+        M9-multi-sector-bottleneck-enabler-focus-group-calculator.xlsx
+        M9-multi-sector-bottleneck-enabler-focus-group.docx
+        M9-suggested-evaluation-tables.xlsx
+        M9-ebs-evaluation-question-pool.xlsx
     9.1-me.pptx
-    9.1.1-case-scenario-me.pptx
-    9.1.2-case-scenario-data-for-me.xlsx
+    9.1.1-me-case-study.pptx
+    9.1.2-me-case-study-data.xlsx
     9.2-supportive-supervision.pptx
-    supportive-supervision-checklist.docx
-    annual-planning-checklist.docx
-    weekly-report-template.docx
-    monthly-quarterly-monitoring-report.docx
-    yearly-monitoring-report-template.docx
-    evaluation-protocol-guidance.docx
-    initial-evaluation-checklist.docx
-    bottleneck-enabler-focus-group.docx
-    bottleneck-enabler-focus-group-calculator.xlsx
-    data-export-template.xlsx
-    ebs-evaluation-literature-review.xlsx
-    evaluation-protocol-template.docx
-    suggested-evaluation-tables.xlsx
-    ebs-evaluation-question-pool.xlsx
+    M9-supportive-supervision-checklist.docx
+    M9-annual-planning-checklist.docx
+    M9-weekly-report-template.docx
+    M9-monthly-quarterly-monitoring-report.docx
+    M9-yearly-monitoring-report-template.docx
 
-/templates-and-supplemental/
+Supplemental Documents
+    ebs-toolkit-materials-list
     ewar-assessment-tool.docx
     ewar-ebs-assessment-tool.docx
     tot-planning-checklist.docx
     tot-week1-agenda.docx
     tot-adaptation-week2-agenda.docx
+    tot-pre-post-test.docx
 ```
 
 | Module | Description | Link |
 |---|---|---|
-| 01 | EWAR Background | [/01-ewar-background/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/01-ewar-background) |
-| 02 | Steps and Process | [/02-steps-and-process/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/02-steps-and-process) |
-| 03 | Implementation Considerations | [/03-implementation-considerations/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/03-implementation-considerations) |
-| 04 | Hotlines | [/04-hotlines/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/04-hotlines) |
-| 05 | Media Scanning | [/05-media-scanning/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/05-media-scanning) |
-| 06 | Facility EBS | [/06-facility-ebs/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/06-facility-ebs) |
-| 07 | Community EBS | [/07-community-ebs/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/07-community-ebs) |
-| 08 | Data Management and EMS | [/08-data-management-and-ems/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/08-data-management-and-ems) |
-| 09 | Monitoring and Evaluation | [/09-monitoring-and-evaluation/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/09-monitoring-and-evaluation) |
-| — | Templates and Supplemental Materials | [/templates-and-supplemental/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/templates-and-supplemental) |
+| 01 | EWAR Background | [/M1-ewar/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/M1%20-%20EWAR) |
+| 02 | EBS Overview | [/M2-EBS-overview/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/M2%20-%20EBS%20Overview) |
+| 03 | Considerations | [/M3-considerations/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/M3%20-%20Considerations) |
+| 04 | Hotline | [/M4-hotlines/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/M4%20-%20Hotline) |
+| 05 | Media Scanning | [/M5-media-scanning/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/M5%20-%20Media%20Scanning) |
+| 06 | Facility EBS | [/M6-facility-ebs/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/M6%20-%20Facility%20EBS) |
+| 07 | Community EBS | [/M7-community-ebs/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/M7%20-%20Community%20EBS) |
+| 08 | Data Management | [/M8-data-management-and-ems/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/M8%20-%20Data%20Management) |
+| 09 | Monitoring and Evaluation | [/M9-monitoring-and-evaluation/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/M9%20-%20M%26E) |
+| — | Supplemental Materials | [/supplemental-docs/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/Supplemental%20Docs) |
 
-> **Note:** Folder and file names above are based on the EBS Toolkit's documented module list. If the actual folder names in the repository differ (e.g., branch name, casing, or naming conventions), update the links accordingly.
-
-> Training of Trainer (ToT) materials are available in English, French, and Spanish, and are organized around the same 9 topic areas listed above, each with knowledge checks and interactive case studies.
+> **Note:** Training of Trainer (ToT) materials are available in English, French, and Spanish, and are organized around the same 9 topic areas listed above, each with knowledge checks and interactive case studies. Email the EBS Unit if access to the other materials is needed. 
 
 ---
 
@@ -203,7 +208,7 @@ Good signals are:
 - **Non-redundant with IBS** — avoid linking EBS signals to conditions already tracked via routine indicator-based thresholds.
 - **Reviewed periodically** — revised as risk profiles, outbreaks, and context change.
 
-See `/02-steps-and-process/` and `/03-implementation-considerations/signal-development-guidance.docx` for universal and modality-/sector-specific example signal lists (human health, animal health, laboratory, environment, points of entry, congregate settings).
+See `/M3 - Considerations/M3 - Signal Development Guidance.pdf` for universal and modality-/sector-specific example signal lists (human health, animal health, laboratory, environment, points of entry, congregate settings).
 
 ---
 
@@ -215,7 +220,7 @@ Every EBS implementation needs a functional signal/event tracking mechanism, whe
 - The system should support **secondary triage** during verification and enable **feedback loops** back to reporters at every level (community → local → intermediate → national).
 - Where possible, connect the EMS to the team responsible for coordinating and executing response, so that alerts translate into timely action rather than sitting in a queue.
 
-See `/08-data-management-and-ems/` for EMS considerations, including interoperability with IBS and cross-border/multisectoral data-sharing needs.
+See `/M8 - Data Management/` for EMS considerations, including interoperability with IBS and cross-border/multisectoral data-sharing needs.
 
 ---
 
@@ -229,7 +234,7 @@ M&E should be built into EBS design from the start, not added retroactively. Rec
 - Supportive supervision visits with structured checklists
 - An EBS scorecard for tracking programmatic maturity across surveillance, data systems, laboratory linkage, preparedness/response, legislation, financing, workforce, and structure
 
-See `/09-monitoring-and-evaluation/` for indicator tables, evaluation plan templates, and scorecards.
+See `/M9 - M&E/` for indicator tables, evaluation plan templates, and scorecards.
 
 ---
 
@@ -240,10 +245,10 @@ See `/09-monitoring-and-evaluation/` for indicator tables, evaluation plan templ
    git clone https://github.com/dghpebsunit-ux/USCDC_EBSToolkit.git
    cd USCDC_EBSToolkit
    ```
-2. **Assess current capacity.** Use the EWAR/EBS assessment tools in `/templates-and-supplemental/` to identify existing surveillance strengths and gaps before adding new components.
+2. **Assess current capacity.** Use the EWAR/EBS assessment tools in `/Supplemental Docs/` to identify existing surveillance strengths and gaps before adding new components.
 3. **Form a multisectoral technical working group.** Include human health, animal health, environment, and other relevant sectors to define priority events and a shared signal list.
 4. **Choose a starting modality.** If resources are constrained, prioritize strengthening a hotline before scaling up CHW-dependent CEBS.
-5. **Draft or adapt SOPs.** Start from the EBS SOP template and signal registers in `/02-steps-and-process/`.
+5. **Draft or adapt SOPs.** Start from the EBS SOP template and signal registers in `/M2 - EBS Overview/`.
 6. **Set up an event log/EMS.** Ensure it links reporting sites to the team responsible for verification, risk assessment, and response.
 7. **Train and supervise.** Use the ToT materials and supportive supervision checklist to build and sustain workforce capacity.
 8. **Monitor and evaluate continuously.** Integrate M&E indicators from day one rather than retrofitting them later.
