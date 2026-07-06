@@ -1,4 +1,4 @@
-# USCDC EBS Toolkit
+# US CDC EBS Toolkit
 
 **Repository:** [github.com/dghpebsunit-ux/USCDC_EBSToolkit](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit)
 
