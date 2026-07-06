@@ -1,7 +1,9 @@
 # Event-Based Surveillance (EBS) Toolkit
 US CDC Event-based Surveillance Toolkit
 
-A practical, modular toolkit for establishing, strengthening, and evaluating Event-Based Surveillance (EBS) as part of a country's Early Warning, Alert and Response (EWAR) system. This repository packages training materials, templates, and guidance for implementing EBS using a stepwise, multisectoral, One Health approach.
+**Repository:** [github.com/dghpebsunit-ux/USCDC_EBSToolkit](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit)
+
+A practical, modular toolkit for establishing, strengthening, and evaluating Event-Based Surveillance (EBS) as part of a country's Early Warning, Alert, and Response (EWAR) system. This repository is maintained by the CDC Global Surveillance, Laboratory, and Data Systems Branch (GSLDSB) EBS Unit, Division of Global Health Protection (DGHP), and packages training materials, templates, and guidance for implementing EBS using a stepwise, multisectoral, all-hazards approach.
 
 > **Scope note:** This toolkit focuses on EBS as a complement to Indicator-Based Surveillance (IBS). Both feed into epidemic intelligence and EWAR, but they serve different purposes — IBS is best suited to monitoring known, prioritized diseases against defined alert/outbreak thresholds; EBS is best suited to picking up unstructured, unexpected signals that IBS would miss.
 
@@ -18,7 +20,7 @@ A practical, modular toolkit for establishing, strengthening, and evaluating Eve
 - [Event Management](#event-management)
 - [Monitoring & Evaluation](#monitoring--evaluation)
 - [Getting Started](#getting-started)
-- [References & Source Materials](#references--source-materials)
+- [References](#references)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -30,9 +32,9 @@ Event-Based Surveillance is the organized collection, monitoring, assessment, an
 
 This toolkit draws on and operationalizes established global and regional guidance, including:
 
-- WHO's *Early Warning Alert and Response in Emergencies: An Operational Guide* (2022)
-- WHO's *Early Detection, Assessment and Response to Acute Public Health Events* (Interim EWAR/EBS Guide, 2014)
-- The Africa CDC *Event-based Surveillance Framework*, 2nd Edition (2023)
+- WHO's *[Early Warning Alert and Response in Emergencies: An Operational Guide](https://www.who.int/publications/i/item/9789240063587)* (2022)
+- WHO's *[Early Detection, Assessment and Response to Acute Public Health Events](https://www.who.int/publications/i/item/WHO-HSE-GCR-LYO-2014.4)* (Interim EWAR/EBS Guide, 2014)
+- The Africa CDC *[Event-based Surveillance Framework](https://africacdc.org/download/africa-cdc-event-based-surveillance-framework-2/)*, 2nd Edition (2023)
 - CDC/GSLDSB EBS Unit training and implementation resources
 
 ---
@@ -72,7 +74,7 @@ EBS and broader EWAR implementation should be approached **stepwise**, not all a
 
 ## Repository Structure
 
-This layout mirrors the modular design of the EBS Toolkit materials:
+This layout mirrors the modular design of the EBS Toolkit materials. Folder links point to the corresponding directory in the [GitHub repository](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit).
 
 ```
 /01-ewar-background/
@@ -159,6 +161,21 @@ This layout mirrors the modular design of the EBS Toolkit materials:
     tot-adaptation-week2-agenda.docx
 ```
 
+| Module | Description | Link |
+|---|---|---|
+| 01 | EWAR Background | [/01-ewar-background/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/01-ewar-background) |
+| 02 | Steps and Process | [/02-steps-and-process/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/02-steps-and-process) |
+| 03 | Implementation Considerations | [/03-implementation-considerations/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/03-implementation-considerations) |
+| 04 | Hotlines | [/04-hotlines/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/04-hotlines) |
+| 05 | Media Scanning | [/05-media-scanning/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/05-media-scanning) |
+| 06 | Facility EBS | [/06-facility-ebs/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/06-facility-ebs) |
+| 07 | Community EBS | [/07-community-ebs/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/07-community-ebs) |
+| 08 | Data Management and EMS | [/08-data-management-and-ems/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/08-data-management-and-ems) |
+| 09 | Monitoring and Evaluation | [/09-monitoring-and-evaluation/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/09-monitoring-and-evaluation) |
+| — | Templates and Supplemental Materials | [/templates-and-supplemental/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/templates-and-supplemental) |
+
+> **Note:** Folder and file names above are based on the EBS Toolkit's documented module list. If the actual folder names in the repository differ (e.g., branch name, casing, or naming conventions), update the links accordingly.
+
 > Training of Trainer (ToT) materials are available in English, French, and Spanish, and are organized around the same 9 topic areas listed above, each with knowledge checks and interactive case studies.
 
 ---
@@ -218,22 +235,33 @@ See `/09-monitoring-and-evaluation/` for indicator tables, evaluation plan templ
 
 ## Getting Started
 
-1. **Assess current capacity.** Use the EWAR/EBS assessment tools in `/templates-and-supplemental/` to identify existing surveillance strengths and gaps before adding new components.
-2. **Form a multisectoral technical working group.** Include human health, animal health, environment, and other relevant sectors to define priority events and a shared signal list.
-3. **Choose a starting modality.** If resources are constrained, prioritize strengthening a hotline before scaling up CHW-dependent CEBS.
-4. **Draft or adapt SOPs.** Start from the EBS SOP template and signal registers in `/02-steps-and-process/`.
-5. **Set up an event log/EMS.** Ensure it links reporting sites to the team responsible for verification, risk assessment, and response.
-6. **Train and supervise.** Use the ToT materials and supportive supervision checklist to build and sustain workforce capacity.
-7. **Monitor and evaluate continuously.** Integrate M&E indicators from day one rather than retrofitting them later.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/dghpebsunit-ux/USCDC_EBSToolkit.git
+   cd USCDC_EBSToolkit
+   ```
+2. **Assess current capacity.** Use the EWAR/EBS assessment tools in `/templates-and-supplemental/` to identify existing surveillance strengths and gaps before adding new components.
+3. **Form a multisectoral technical working group.** Include human health, animal health, environment, and other relevant sectors to define priority events and a shared signal list.
+4. **Choose a starting modality.** If resources are constrained, prioritize strengthening a hotline before scaling up CHW-dependent CEBS.
+5. **Draft or adapt SOPs.** Start from the EBS SOP template and signal registers in `/02-steps-and-process/`.
+6. **Set up an event log/EMS.** Ensure it links reporting sites to the team responsible for verification, risk assessment, and response.
+7. **Train and supervise.** Use the ToT materials and supportive supervision checklist to build and sustain workforce capacity.
+8. **Monitor and evaluate continuously.** Integrate M&E indicators from day one rather than retrofitting them later.
+
+> Materials are organized to be used in workshops, self-paced learning, or facilitated training environments. See open [Issues](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/issues) for known gaps or planned additions, and [Releases](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/releases) for versioned toolkit snapshots.
 
 ---
 
-## References & Source Materials
+## References
 
-- WHO. *Early Warning Alert and Response in Emergencies: An Operational Guide.* Geneva: World Health Organization; 2022.
-- WHO. *Early Detection, Assessment and Response to Acute Public Health Events: Implementation of Early Warning and Response with a Focus on Event-Based Surveillance (Interim Version).* Geneva: WHO; 2014. (WHO/HSE/GCR/LYO/2014.4)
-- Africa CDC. *Event-based Surveillance Framework*, 2nd Edition. Addis Ababa: African Union/Africa CDC; 2023.
-- CDC Global Surveillance, Laboratory, and Data Systems Branch (GSLDSB), EBS Unit — EBS Toolkit training materials and signal development guidance.
+- WHO. *[Early Warning Alert and Response in Emergencies: An Operational Guide.](https://www.who.int/publications/i/item/9789240063587)* Geneva: World Health Organization; 2022.
+- WHO. *[Early Detection, Assessment and Response to Acute Public Health Events: Implementation of Early Warning and Response with a Focus on Event-Based Surveillance (Interim Version).](https://www.who.int/publications/i/item/WHO-HSE-GCR-LYO-2014.4)* Geneva: WHO; 2014. (WHO/HSE/GCR/LYO/2014.4)
+- Africa CDC. *[Event-based Surveillance Framework](https://africacdc.org/download/africa-cdc-event-based-surveillance-framework-2/)*, 2nd Edition. Addis Ababa: African Union/Africa CDC; 2023.
+- Mercy K, Salyer SJ, Mankga C, Hedberg C, Zondo P, Kebede Y. [Establishing an early warning Event Management System at Africa CDC.](https://doi.org/10.1371/journal.pdig.0000546) *PLOS Digital Health.* 2024;3(7):e0000546.
+- Crawley AW, Mercy K, Shivji S, Trowbridge D, Lofgren H, Manthey C, Kebede Tebeje Y, Clara AW, Landry K, Salyer SJ. [An Indicator Framework for Monitoring and Evaluation of Event-based Surveillance Systems.](https://doi.org/10.1016/S2214-109X(24)00034-2) *Lancet Global Health.* 2024;12(4):e707–e711.
+- Mercy K, Salyer SJ, Aliddeki D, Tibebu B, Osman F, Amabo FC, Kwagonza Warren L, Ibrahim Buba M, Kebede Y. [Evaluating event-based surveillance capacity in Africa: use of the Africa CDC scorecard, 2022–2023.](https://pubmed.ncbi.nlm.nih.gov/37719793/) *Prev Med Rep.* 2023 Sep 9;36:102398.
+- Ghai RR, Wallace RM, Kile JC, Shoemaker TR, Vieira AR, Negron ME, Shadomy SV, Sinclair JR, Goryoka GW, Salyer SJ, Behravesh CB. [A generalizable one health framework for the control of zoonotic diseases.](https://doi.org/10.1038/s41598-022-12619-1) *Sci Rep.* 2022;12:8588.
+- Balajee A, Salyer SJ, Greene-Cramer B, Sadek M, Mounts AW. [The practice of event-based surveillance: concept and methods.](https://www.tandfonline.com/doi/full/10.1080/23779497.2020.1848444) *Global Security: Health, Science and Policy.* 2021;6(1):1–9.
 
 For questions about the CDC EBS Toolkit materials specifically, contact the GSLDSB EBS Unit at **GSLDSEBS@cdc.gov**.
 
@@ -241,10 +269,20 @@ For questions about the CDC EBS Toolkit materials specifically, contact the GSLD
 
 ## Contributing
 
-Contributions, translations, and country-adapted examples are welcome. Please open an issue describing proposed changes before submitting a pull request, especially for changes to signal lists, thresholds, or SOP templates, since these should be reviewed by public health/surveillance subject matter experts before adoption.
+Contributions, translations, and country-adapted examples are welcome via pull request to [dghpebsunit-ux/USCDC_EBSToolkit](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit). Please open an [issue](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/issues) describing proposed changes before submitting a pull request, especially for changes to signal lists, thresholds, or SOP templates, since these should be reviewed by public health/surveillance subject matter experts before adoption.
 
----
+## Contact
+
+Maintained by the CDC GSLDSB EBS Unit:
+
+- Emily Weston — csi7@cdc.gov
+- Stephanie Salyer — wig9@cdc.gov
+- General mailbox — GSLDSEBS@cdc.gov
+
+For questions about this repository specifically, open an issue at [github.com/dghpebsunit-ux/USCDC_EBSToolkit/issues](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/issues).
 
 ## License
 
-Add your organization's license terms here. Materials adapted from WHO and Africa CDC publications may carry their own licensing/attribution requirements (e.g., CC BY-NC-SA 3.0 IGO for WHO materials) — verify and retain original attribution notices when redistributing derived content.
+[EBS Toolkit](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit) © 2023 by [US CDC/CGH/DGHP/GSLDSB/SET/EBS Unit](https://example.com) is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+Materials adapted from WHO and Africa CDC publications may carry their own licensing/attribution requirements (e.g., CC BY-NC-SA 3.0 IGO for WHO materials) — verify and retain original attribution notices when redistributing derived content.
