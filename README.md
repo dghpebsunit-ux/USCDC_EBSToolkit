@@ -266,6 +266,29 @@ For questions about the CDC EBS Toolkit materials specifically, contact the GSLD
 
 ---
 
+For questions about the CDC EBS Toolkit materials specifically, contact the GSLDSB EBS Unit at GSLDSEBS@cdc.gov.
+
+
+## Citation
+
+If you use or adapt materials from this toolkit, please cite it as:
+
+
+US Centers for Disease Control and Prevention. Event-based Surveillance Toolkit [Internet]. 2024. Available from: https://github.com/dghpebsunit-ux/USCDC_EBSToolkit
+
+
+
+BibTeX:
+
+bibtex@misc{cdc_ebs_toolkit,
+  author       = {{US CDC}},
+  title        = {Event-based Surveillance Toolkit},
+  year         = {2024},
+  publisher    = {GitHub},
+  url          = {https://github.com/dghpebsunit-ux/USCDC_EBSToolkit}
+}
+
+
 ## Contributing
 
 Contributions, translations, and country-adapted examples are welcome via pull request to [dghpebsunit-ux/USCDC_EBSToolkit](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit). Please open an [issue](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/issues) describing proposed changes before submitting a pull request, especially for changes to signal lists, thresholds, or SOP templates, since these should be reviewed by public health/surveillance subject matter experts before adoption.
@@ -282,6 +305,6 @@ For questions about this repository specifically, open an issue at [github.com/d
 
 ## License
 
-[EBS Toolkit](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit) © 2023 by [US CDC/CGH/DGHP/GSLDSB/SET/EBS Unit](https://example.com) is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[EBS Toolkit](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit) © 2024 by [US CDC/CGH/DGHP/GSLDSB/SET/EBS Unit](https://example.com) is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 Materials adapted from WHO and Africa CDC publications may carry their own licensing/attribution requirements (e.g., CC BY-NC-SA 3.0 IGO for WHO materials) — verify and retain original attribution notices when redistributing derived content.
