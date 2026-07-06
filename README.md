@@ -172,9 +172,9 @@ Supplemental Documents
 |---|---|---|
 | 01 | EWAR Background | [/M1-ewar/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/M1%20-%20EWAR) |
 | 02 | EBS Overview | [/M2-EBS-overview/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/M2%20-%20EBS%20Overview) |
-| 03 | Considerations | [/M3-considerations/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/M3%20-%20Considerations) |
-| 04 | Hotline | [/M4-hotlines/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/M4%20-%20Hotline) |
-| 05 | Media Scanning | [/M5-media-scanning/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/M5%20-%20Media%20Scanning) |
+| 03 | Implementation Considerations | [/M3-considerations/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/M3%20-%20Considerations) |
+| 04 | Hotline EBS | [/M4-hotlines/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/M4%20-%20Hotline) |
+| 05 | Media Scanning EBS | [/M5-media-scanning/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/M5%20-%20Media%20Scanning) |
 | 06 | Facility EBS | [/M6-facility-ebs/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/M6%20-%20Facility%20EBS) |
 | 07 | Community EBS | [/M7-community-ebs/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/M7%20-%20Community%20EBS) |
 | 08 | Data Management | [/M8-data-management-and-ems/](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit/tree/main/M8%20-%20Data%20Management) |
