@@ -266,13 +266,9 @@ For questions about the CDC EBS Toolkit materials specifically, contact the GSLD
 
 ---
 
-For questions about the CDC EBS Toolkit materials specifically, contact the GSLDSB EBS Unit at GSLDSEBS@cdc.gov.
-
-
 ## Citation
 
 If you use or adapt materials from this toolkit, please cite it as:
-
 
 US Centers for Disease Control and Prevention. Event-based Surveillance Toolkit [Internet]. 2024. Available from: https://github.com/dghpebsunit-ux/USCDC_EBSToolkit
 
