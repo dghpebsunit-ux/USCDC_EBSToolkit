@@ -1,2 +1,250 @@
-# USCDC_EBSToolkit
+# Event-Based Surveillance (EBS) Toolkit
 US CDC Event-based Surveillance Toolkit
+
+A practical, modular toolkit for establishing, strengthening, and evaluating Event-Based Surveillance (EBS) as part of a country's Early Warning, Alert and Response (EWAR) system. This repository packages training materials, templates, and guidance for implementing EBS using a stepwise, multisectoral, One Health approach.
+
+> **Scope note:** This toolkit focuses on EBS as a complement to Indicator-Based Surveillance (IBS). Both feed into epidemic intelligence and EWAR, but they serve different purposes — IBS is best suited to monitoring known, prioritized diseases against defined alert/outbreak thresholds; EBS is best suited to picking up unstructured, unexpected signals that IBS would miss.
+
+---
+
+## Table of Contents
+
+- [Background](#background)
+- [Core Concepts](#core-concepts)
+- [Guiding Principles for Implementation](#guiding-principles-for-implementation)
+- [Repository Structure](#repository-structure)
+- [EBS Modalities](#ebs-modalities)
+- [Signal Development](#signal-development)
+- [Event Management](#event-management)
+- [Monitoring & Evaluation](#monitoring--evaluation)
+- [Getting Started](#getting-started)
+- [References & Source Materials](#references--source-materials)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## Background
+
+Event-Based Surveillance is the organized collection, monitoring, assessment, and interpretation of largely unstructured, ad hoc information about health events or hazards that may pose an acute risk to human, animal, plant, or environmental health. EBS is one of two pillars of Early Warning (alongside IBS), and both are integrated through **epidemic intelligence** to support early detection, verification, risk assessment, and response.
+
+This toolkit draws on and operationalizes established global and regional guidance, including:
+
+- WHO's *Early Warning Alert and Response in Emergencies: An Operational Guide* (2022)
+- WHO's *Early Detection, Assessment and Response to Acute Public Health Events* (Interim EWAR/EBS Guide, 2014)
+- The Africa CDC *Event-based Surveillance Framework*, 2nd Edition (2023)
+- CDC/GSLDSB EBS Unit training and implementation resources
+
+---
+
+## Core Concepts
+
+EBS (and EWAR more broadly) follows a common workflow:
+
+```
+Detection → Triage → Verification → Risk Assessment → Alert → Response
+```
+
+| Step | Definition |
+|---|---|
+| **Signal** | Unverified information suggesting a potential acute health event |
+| **Triage** | Filtering (removing duplicates/irrelevant info) and selection (matching against priority signal list) |
+| **Event** | A signal that has been verified as authentic |
+| **Alert** | A verified event that has been risk-assessed and requires a response |
+| **Response** | Investigation, control measures, and/or communication triggered by an alert |
+
+All signals — regardless of source — should be logged and managed through a **consistent, standardized workflow**, and every event should be resolved through **discard, monitor, or respond/investigate** outcomes.
+
+---
+
+## Guiding Principles for Implementation
+
+EBS and broader EWAR implementation should be approached **stepwise**, not all at once. Key principles reflected throughout this toolkit:
+
+1. **Strengthen before you expand.** Assess and reinforce existing surveillance and coordination structures before layering on new EBS modalities or geographic scope.
+2. **Standardize across modalities.** Hotlines, media scanning, facility EBS, and community EBS (CEBS) should share a common signal list, triage logic, and reporting workflow wherever possible, to avoid fragmentation and ease comparison across sources.
+3. **Start small if resources are limited.** Where funding or staffing is constrained, consider strengthening a **hotline** to capture community feedback before scaling up a full community health worker (CHW)-dependent CEBS network, which is more resource-intensive to sustain.
+4. **Keep signals simple.** Signal definitions should be broad (sensitive, not specific), written in plain language, limited in number, and easy for non-specialists (including community members) to remember. Avoid heavy overlap with diseases/conditions already captured by IBS — EBS should focus on the unknown and unusual.
+5. **Set clear thresholds for IBS.** Where indicator-based data is used, define explicit alert/epidemic thresholds (fixed value, moving average, or historical trend) per disease/condition so that signals are generated consistently.
+6. **Build a functional event management backbone.** Every implementation — regardless of modality — needs a working signal/event log or Event Management System (EMS) that supports the full detection-to-response pipeline and connects directly to the team responsible for response.
+
+---
+
+## Repository Structure
+
+This layout mirrors the modular design of the EBS Toolkit materials:
+
+```
+/01-ewar-background/
+    1.1-overview-of-disease-surveillance.pptx
+    1.2-surveillance-frameworks.pptx
+
+/02-steps-and-process/
+    2.1-importance-of-ebs.pptx
+    2.2-ebs-concepts-and-methods.pptx
+    2.3-ebs-risk-assessment.pptx
+    2.3.1-risk-assessment-case-study.pptx
+    ebs-sop-template.docx
+    risk-assessment-guidance.docx
+    ebs-signal-abstraction-form.docx
+    cebs-febs-signal-register.xlsx
+    cebs-febs-signal-register-key.docx
+    intermediate-level-ebs-event-log.xlsx
+    intermediate-level-ebs-event-log-key.docx
+
+/03-implementation-considerations/
+    3.1-placement-coordination-resources.pptx
+    3.2-one-health-and-cross-border.pptx
+    3.2.1-case-scenario-one-health.pptx
+    3.2.2-case-scenario-cross-border.pptx
+    3.3-signal-development.pptx
+    3.4-epidemics-and-pandemics.pptx
+    signal-development-guidance.docx
+
+/04-hotlines/
+    4.1-hotlines.pptx
+    4.1.1-hotline-case-study.pptx
+    4.1.2-hotline-case-study-handout.docx
+
+/05-media-scanning/
+    5.1-media-scanning.pptx
+    5.1.1-case-scenario-media-scanning.pptx
+    5.1.2-eios-demo.pptx
+
+/06-facility-ebs/
+    6.1-facility-ebs.pptx
+    6.1.1-case-scenario-health-facility.pptx
+    6.1.2-case-scenario-wastewater-facility.pptx
+
+/07-community-ebs/
+    7.1-community-ebs.pptx
+    7.1.1-case-scenario-cebs.pptx
+
+/08-data-management-and-ems/
+    8.1-ebs-data-management.pptx
+    8.1.1-case-scenario-data-management.pptx
+    8.1.2-case-scenario-data-for-analysis.xlsx
+    8.2-event-management-systems.pptx
+    8.2.1-ephem-ems-demo.pptx
+    ephem-general-overview.pptx
+    8.3-spotrep-sitrep-preparation.pptx
+    situation-report-template.docx
+    spot-report-template.docx
+
+/09-monitoring-and-evaluation/
+    9.1-me.pptx
+    9.1.1-case-scenario-me.pptx
+    9.1.2-case-scenario-data-for-me.xlsx
+    9.2-supportive-supervision.pptx
+    supportive-supervision-checklist.docx
+    annual-planning-checklist.docx
+    weekly-report-template.docx
+    monthly-quarterly-monitoring-report.docx
+    yearly-monitoring-report-template.docx
+    evaluation-protocol-guidance.docx
+    initial-evaluation-checklist.docx
+    bottleneck-enabler-focus-group.docx
+    bottleneck-enabler-focus-group-calculator.xlsx
+    data-export-template.xlsx
+    ebs-evaluation-literature-review.xlsx
+    evaluation-protocol-template.docx
+    suggested-evaluation-tables.xlsx
+    ebs-evaluation-question-pool.xlsx
+
+/templates-and-supplemental/
+    ewar-assessment-tool.docx
+    ewar-ebs-assessment-tool.docx
+    tot-planning-checklist.docx
+    tot-week1-agenda.docx
+    tot-adaptation-week2-agenda.docx
+```
+
+> Training of Trainer (ToT) materials are available in English, French, and Spanish, and are organized around the same 9 topic areas listed above, each with knowledge checks and interactive case studies.
+
+---
+
+## EBS Modalities
+
+The toolkit supports four core modalities, which can be implemented incrementally:
+
+- **Hotlines** — voice, SMS, USSD, or social-media-based reporting channels for community members and stakeholders. Recommended as a **low-cost entry point** for countries beginning EBS implementation.
+- **Media Scanning** — manual or automated (e.g., EIOS-based) monitoring of official and unofficial media sources, both national and international/cross-border.
+- **Facility EBS (FEBS)** — signal detection by clinicians, laboratory staff, veterinarians, and other facility-based professionals, across human health, animal health, laboratory, and environmental facility types.
+- **Community EBS (CEBS)** — detection and reporting by community health workers (CHWs), community animal health workers (CAHWs), and key informants (teachers, religious leaders, traditional healers, etc.).
+
+Each modality follows the same detection → triage → verification → risk assessment → alert steps, adapted to the sources and workforce involved.
+
+---
+
+## Signal Development
+
+Good signals are:
+
+- **Sensitive rather than specific** — designed to catch the unexpected, not to duplicate known/notifiable disease lists.
+- **Simple and memorable** — usable by non-specialists, including community members, without medical jargon.
+- **Limited in number** — enough to be comprehensive without overwhelming reporters or the response system.
+- **Non-redundant with IBS** — avoid linking EBS signals to conditions already tracked via routine indicator-based thresholds.
+- **Reviewed periodically** — revised as risk profiles, outbreaks, and context change.
+
+See `/02-steps-and-process/` and `/03-implementation-considerations/signal-development-guidance.docx` for universal and modality-/sector-specific example signal lists (human health, animal health, laboratory, environment, points of entry, congregate settings).
+
+---
+
+## Event Management
+
+Every EBS implementation needs a functional signal/event tracking mechanism, whether a simple paper logbook or an electronic Event Management System (EMS):
+
+- Logs must capture, at minimum: unique identifier, source, location, date of onset/detection/reporting, description, verification/risk-assessment outcomes, and response status.
+- The system should support **secondary triage** during verification and enable **feedback loops** back to reporters at every level (community → local → intermediate → national).
+- Where possible, connect the EMS to the team responsible for coordinating and executing response, so that alerts translate into timely action rather than sitting in a queue.
+
+See `/08-data-management-and-ems/` for EMS considerations, including interoperability with IBS and cross-border/multisectoral data-sharing needs.
+
+---
+
+## Monitoring & Evaluation
+
+M&E should be built into EBS design from the start, not added retroactively. Recommended components:
+
+- Input, process/activity, output, outcome, and impact indicators (results-chain model)
+- Routine monitoring (e.g., timeliness of verification, risk assessment, and notification) integrated into existing reporting workflows
+- Periodic internal and external evaluations (formative, process, and summative)
+- Supportive supervision visits with structured checklists
+- An EBS scorecard for tracking programmatic maturity across surveillance, data systems, laboratory linkage, preparedness/response, legislation, financing, workforce, and structure
+
+See `/09-monitoring-and-evaluation/` for indicator tables, evaluation plan templates, and scorecards.
+
+---
+
+## Getting Started
+
+1. **Assess current capacity.** Use the EWAR/EBS assessment tools in `/templates-and-supplemental/` to identify existing surveillance strengths and gaps before adding new components.
+2. **Form a multisectoral technical working group.** Include human health, animal health, environment, and other relevant sectors to define priority events and a shared signal list.
+3. **Choose a starting modality.** If resources are constrained, prioritize strengthening a hotline before scaling up CHW-dependent CEBS.
+4. **Draft or adapt SOPs.** Start from the EBS SOP template and signal registers in `/02-steps-and-process/`.
+5. **Set up an event log/EMS.** Ensure it links reporting sites to the team responsible for verification, risk assessment, and response.
+6. **Train and supervise.** Use the ToT materials and supportive supervision checklist to build and sustain workforce capacity.
+7. **Monitor and evaluate continuously.** Integrate M&E indicators from day one rather than retrofitting them later.
+
+---
+
+## References & Source Materials
+
+- WHO. *Early Warning Alert and Response in Emergencies: An Operational Guide.* Geneva: World Health Organization; 2022.
+- WHO. *Early Detection, Assessment and Response to Acute Public Health Events: Implementation of Early Warning and Response with a Focus on Event-Based Surveillance (Interim Version).* Geneva: WHO; 2014. (WHO/HSE/GCR/LYO/2014.4)
+- Africa CDC. *Event-based Surveillance Framework*, 2nd Edition. Addis Ababa: African Union/Africa CDC; 2023.
+- CDC Global Surveillance, Laboratory, and Data Systems Branch (GSLDSB), EBS Unit — EBS Toolkit training materials and signal development guidance.
+
+For questions about the CDC EBS Toolkit materials specifically, contact the GSLDSB EBS Unit at **GSLDSEBS@cdc.gov**.
+
+---
+
+## Contributing
+
+Contributions, translations, and country-adapted examples are welcome. Please open an issue describing proposed changes before submitting a pull request, especially for changes to signal lists, thresholds, or SOP templates, since these should be reviewed by public health/surveillance subject matter experts before adoption.
+
+---
+
+## License
+
+Add your organization's license terms here. Materials adapted from WHO and Africa CDC publications may carry their own licensing/attribution requirements (e.g., CC BY-NC-SA 3.0 IGO for WHO materials) — verify and retain original attribution notices when redistributing derived content.
