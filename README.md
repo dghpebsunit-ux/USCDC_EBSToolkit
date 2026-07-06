@@ -1,5 +1,4 @@
 # Event-Based Surveillance (EBS) Toolkit
-US CDC Event-based Surveillance Toolkit
 
 **Repository:** [github.com/dghpebsunit-ux/USCDC_EBSToolkit](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit)
 
