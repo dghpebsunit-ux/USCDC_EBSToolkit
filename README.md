@@ -1,8 +1,8 @@
-# Event-Based Surveillance (EBS) Toolkit
+# USCDC EBS Toolkit
 
 **Repository:** [github.com/dghpebsunit-ux/USCDC_EBSToolkit](https://github.com/dghpebsunit-ux/USCDC_EBSToolkit)
 
-A practical, modular toolkit for establishing, strengthening, and evaluating Event-Based Surveillance (EBS) as part of a country's Early Warning, Alert, and Response (EWAR) system. This repository is maintained by the CDC Global Surveillance, Laboratory, and Data Systems Branch (GSLDSB) EBS Unit, Division of Global Health Protection (DGHP), and packages training materials, templates, and guidance for implementing EBS using a stepwise, multisectoral, all-hazards approach.
+A practical, modular toolkit for establishing, strengthening, and evaluating Event-Based Surveillance (EBS) as part of a country's Early Warning, Alert and Response (EWAR) system. This repository is maintained by the CDC Global Surveillance, Laboratory, and Data Systems Branch (GSLDSB) EBS Unit, Division of Global Health Protection (DGHP), and packages training materials, templates, and guidance for implementing EBS using a stepwise, multisectoral, One Health approach.
 
 > **Scope note:** This toolkit focuses on EBS as a complement to Indicator-Based Surveillance (IBS). Both feed into epidemic intelligence and EWAR, but they serve different purposes — IBS is best suited to monitoring known, prioritized diseases against defined alert/outbreak thresholds; EBS is best suited to picking up unstructured, unexpected signals that IBS would miss.
 
@@ -20,6 +20,7 @@ A practical, modular toolkit for establishing, strengthening, and evaluating Eve
 - [Monitoring & Evaluation](#monitoring--evaluation)
 - [Getting Started](#getting-started)
 - [References](#references)
+- [Citation](#citation)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -270,20 +271,21 @@ For questions about the CDC EBS Toolkit materials specifically, contact the GSLD
 
 If you use or adapt materials from this toolkit, please cite it as:
 
-US Centers for Disease Control and Prevention. Event-based Surveillance Toolkit [Internet]. 2024. Available from: https://github.com/dghpebsunit-ux/USCDC_EBSToolkit
-
-
+> US CDC. *EBS Toolkit* [Internet]. 2024. Available from: https://github.com/dghpebsunit-ux/USCDC_EBSToolkit
 
 BibTeX:
 
-bibtex@misc{cdc_ebs_toolkit,
+```bibtex
+@misc{cdc_ebs_toolkit,
   author       = {{US CDC}},
-  title        = {Event-based Surveillance Toolkit},
+  title        = {EBS Toolkit},
   year         = {2024},
   publisher    = {GitHub},
   url          = {https://github.com/dghpebsunit-ux/USCDC_EBSToolkit}
 }
+```
 
+---
 
 ## Contributing
 
